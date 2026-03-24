@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS Sulaiman - TI 2B</title>
+    
+    <link rel="stylesheet" href="latihan.css">
+
+    <style>
+        body {
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #48b1ea;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: all 0.4s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Latihan CSS Puji Sulaiman</h1>
+        <p style="color: #ffeb3b; font-weight: bold; font-size: 1.2rem;">
+            Kelas: TI 2B
+        </p>
+    </header>
+
+    <main>
+        <h2 style="text-align: center; margin-top: 20px;">Implementasi CSS Grid</h2>
+        <section class="grid-container">
+            <div class="card">
+                <h3>CSS Tutorial 1</h3>
+                <p>Mengatur Colors dan Typography.</p>
+            </div>
+            <div class="card">
+                <h3>CSS Tutorial 2</h3>
+                <p>Mengatur Borders dan Radius.</p>
+            </div>
+            <div class="card">
+                <h3>CSS Tutorial 3</h3>
+                <p>Mengatur Display Block & Inline.</p>
+            </div>
+        </section>
+
+        <h2 style="text-align: center;">Implementasi CSS Flexbox</h2>
+        <section class="flex-container">
+            <div class="flex-item">
+                <h4>Advanced CSS</h4>
+                <p>Elemen ini menggunakan efek transisi.</p>
+            </div>
+            <div class="flex-item" style="border-left: 5px solid #1a237e;">
+                <h4>Flexbox Layout</h4>
+                <p>Menyusun konten secara horizontal.</p>
+            </div>
+        </section>
+
+        <div class="responsive-box">
+            <p>Kotak ini responsif terhadap ukuran layar!</p>
+        </div>
+    </main>
+
+    <footer style="text-align: center; padding: 20px; background: #333; color: white;">
+        <p>&copy; 2026 - Puji Sulaiman (TI 2B)</p>
+    </footer>
+
+</body>
+</html>
